@@ -8,15 +8,54 @@
     "storage"
   ],
   "host_permissions": [
-    "*://*/*"
+    "*://*.amazon.com/*",
+    "*://*.amazon.in/*",
+    "*://*.flipkart.com/*",
+    "*://*.myntra.com/*",
+    "*://*.ajio.com/*",
+    "*://*.nykaa.com/*",
+    "*://*.meesho.com/*",
+    "*://*.ebay.com/*",
+    "*://*.walmart.com/*",
+    "*://*.target.com/*",
+    "*://*.bestbuy.com/*",
+    "*://*.costco.com/*",
+    "*://*.homedepot.com/*",
+    "*://*.alibaba.com/*",
+    "*://*.aliexpress.com/*",
+    "*://*.etsy.com/*",
+    "*://*.overstock.com/*",
+    "*://*.wayfair.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "*://*/*"
+        "*://*.amazon.com/*",
+        "*://*.amazon.in/*",
+        "*://*.flipkart.com/*",
+        "*://*.myntra.com/*",
+        "*://*.ajio.com/*",
+        "*://*.nykaa.com/*",
+        "*://*.meesho.com/*",
+        "*://*.ebay.com/*",
+        "*://*.walmart.com/*",
+        "*://*.target.com/*",
+        "*://*.bestbuy.com/*",
+        "*://*.costco.com/*",
+        "*://*.homedepot.com/*",
+        "*://*.alibaba.com/*",
+        "*://*.aliexpress.com/*",
+        "*://*.etsy.com/*",
+        "*://*.overstock.com/*",
+        "*://*.wayfair.com/*"
       ],
-      "js": ["js/site-configs.js", "js/content.js"],
-      "css": ["css/content.css"],
+      "js": [
+        "js/site-configs.js",
+        "js/content.js"
+      ],
+      "css": [
+        "css/content.css"
+      ],
       "run_at": "document_end"
     }
   ],
