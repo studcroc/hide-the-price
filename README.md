@@ -1,5 +1,7 @@
 # Hide The Prices - Chrome Extension
 
+![Hide The Prices Icon](icons/icon.png)
+
 A universal Chrome extension that helps you hide prices on any e-commerce website.
 
 ## 💡 Inspiration
